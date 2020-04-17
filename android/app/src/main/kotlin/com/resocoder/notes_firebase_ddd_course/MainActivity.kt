@@ -1,4 +1,4 @@
-package com.resocoder.notes_firebase_ddd_course
+package com.spagettys.notes_firebase_ddd_course
 
 import androidx.annotation.NonNull;
 import io.flutter.embedding.android.FlutterActivity

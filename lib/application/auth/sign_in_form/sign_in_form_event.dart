@@ -12,12 +12,4 @@ abstract class SignInFormEvent with _$SignInFormEvent {
       SignInWithEmailAndPasswordPressed;
   const factory SignInFormEvent.signInWithGooglePressed() =
       SignInWithGooglePressed;
-
-  factory SignInFormState.initial() => SignInFormState(
-        emailAddress: EmailAddress(''),
-        password: Password(''),
-        showErrorMessages: false,
-        isSubmitting: false,
-        authFailureOrSuccessOption: none(),
-      );
 }
