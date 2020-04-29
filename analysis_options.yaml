@@ -1,7 +1,20 @@
 include: package:lint/analysis_options.yaml
 
+# Disable a specific linting rule by setting it to false here.
+# Or add a specific rule otherwise not used, by setting it to true here.
+linter:
+  rules:
+    # parameter_assignments: false
+    parameter_assignments: true
+
+# Change the severity level any give active rule: ignore | info (default) | warning | error
 analyzer:
   errors:
+    yield_of_invalid_type: info
     missing_required_param: error
     missing_return: error
     must_be_immutable: error
+    parameter_assignments: error
+    prefer_final_fields: error
+    prefer_const_constructors: error
+    prefer_const_constructors_in_immutables: error
