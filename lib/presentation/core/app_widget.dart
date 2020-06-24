@@ -11,10 +11,9 @@ class AppWidget extends StatelessWidget {
     return MultiBlocProvider(
       providers: [
         BlocProvider(
-          create: (context) => getIt<AuthBloc>()
-            ..add(
-              const AuthEvent.authCeckRequested(),
-            ),
+          create: (context) =>
+              //! [..add] -> Tell the bloc to do something right from the get-go! (pretty cool :D)
+              getIt<AuthBloc>()..add(const AuthEvent.authCeckRequested()),
         )
       ],
       child: MaterialApp(

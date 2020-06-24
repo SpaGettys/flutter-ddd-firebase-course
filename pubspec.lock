@@ -168,7 +168,7 @@ packages:
       name: dartz
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.9.0"
+    version: "0.9.1"
   firebase:
     dependency: transitive
     description:
@@ -243,7 +243,7 @@ packages:
       name: flutter_bloc
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "4.0.0"
+    version: "4.0.1"
   flutter_web_plugins:
     dependency: transitive
     description: flutter
@@ -255,14 +255,14 @@ packages:
       name: freezed
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.10.9"
+    version: "0.11.2"
   freezed_annotation:
     dependency: "direct main"
     description:
       name: freezed_annotation
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.7.1"
+    version: "0.11.0"
   get_it:
     dependency: "direct main"
     description:
@@ -346,7 +346,7 @@ packages:
       name: injectable_generator
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.4.0"
+    version: "0.4.1"
   io:
     dependency: transitive
     description:
@@ -575,7 +575,7 @@ packages:
       name: uuid
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.0.4"
+    version: "2.1.0"
   vector_math:
     dependency: transitive
     description:
