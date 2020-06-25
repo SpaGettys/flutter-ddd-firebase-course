@@ -89,12 +89,13 @@ class __$TodoItemCopyWithImpl<$Res> extends _$TodoItemCopyWithImpl<$Res>
   }
 }
 
-class _$_TodoItem implements _TodoItem {
+class _$_TodoItem extends _TodoItem {
   const _$_TodoItem(
       {@required this.id, @required this.name, @required this.done})
       : assert(id != null),
         assert(name != null),
-        assert(done != null);
+        assert(done != null),
+        super._();
 
   @override
   final UniqueId id;
@@ -132,7 +133,8 @@ class _$_TodoItem implements _TodoItem {
       __$TodoItemCopyWithImpl<_TodoItem>(this, _$identity);
 }
 
-abstract class _TodoItem implements TodoItem {
+abstract class _TodoItem extends TodoItem {
+  const _TodoItem._() : super._();
   const factory _TodoItem(
       {@required UniqueId id,
       @required TodoName name,

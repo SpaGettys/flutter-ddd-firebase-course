@@ -18,3 +18,5 @@ analyzer:
     prefer_final_fields: error
     prefer_const_constructors: error
     prefer_const_constructors_in_immutables: error
+    sort_unnamed_constructors_first: ignore
+    unused_element: ignore
