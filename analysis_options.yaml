@@ -20,3 +20,4 @@ analyzer:
     prefer_const_constructors_in_immutables: error
     sort_unnamed_constructors_first: ignore
     unused_element: ignore
+    non_constant_identifier_names: ignore
